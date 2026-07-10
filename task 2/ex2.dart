@@ -7,7 +7,6 @@ void main() {
 }
 
 List<int> findCommon(List<int> a, List<int> b) {
-  // Using Set to avoid duplicates and handle lists of different sizes
   Set<int> setA = a.toSet();
   Set<int> setB = b.toSet();
 
